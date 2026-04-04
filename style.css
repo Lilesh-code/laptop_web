@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; padding: 0; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #2c3e50; margin: 0;}
 header {background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 20px; text-align: center; border-radius: 0; margin-bottom: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.15);}
 h1, h2, h3 {color: #2c3e50; margin-top: 40px; margin-bottom: 20px; font-weight: 700;}
@@ -24,6 +25,32 @@ img:hover {transform: scale(1.05);}
 details {margin-bottom: 10px;}
 summary {cursor: pointer; font-weight: 600; color: #667eea;}
 summary:hover {text-decoration: underline; color: #764ba2;}
+=======
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; padding: 20px; background: linear-gradient(to bottom, #f8f9fa, #e9ecef); color: #333; margin: 0;}
+header {background: #007bff; color: white; padding: 20px; text-align: center; border-radius: 8px; margin-bottom: 20px;}
+h1, h2, h3 {color: #007bff; margin-top: 30px;}
+table {width: 100%; border-collapse: collapse; margin-bottom: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden;}
+th, td {border: 1px solid #ddd; padding: 12px; text-align: left;}
+th {background: #007bff; color: white; font-weight: bold;}
+tr:nth-child(even) {background: #f8f9fa;}
+tr:hover {background: #e3f2fd;}
+a {text-decoration: none; font-weight: bold; color: #007bff;}
+a:hover {text-decoration: underline;}
+.rating {color: #ff9800; font-size: 1.2em;}
+.filter-buttons {margin-bottom: 20px; text-align: center;}
+.filter-buttons button {margin: 0 10px; padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;}
+.filter-buttons button:hover {background: #0056b3;}
+.laptop-row {display: table-row;}
+.hidden {display: none;}
+footer {text-align: center; padding: 20px; background: #f8f9fa; margin-top: 40px; border-radius: 8px;}
+.disclaimer {font-size: 0.9em; color: #666;}
+img {max-width: 100px; height: auto; border-radius: 5px;}
+.interactive {cursor: pointer;}
+.details {margin-top: 10px;}
+details {margin-bottom: 10px;}
+summary {cursor: pointer; font-weight: bold; color: #007bff;}
+summary:hover {text-decoration: underline;}
+>>>>>>> dd498f5 (Add style.css and update index.html)
 .hero-image {width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin-bottom: 20px;}
 .icon {width: 30px; height: 30px; margin-right: 10px; vertical-align: middle;}
 .section-image {width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.08);}
@@ -58,6 +85,7 @@ summary:hover {text-decoration: underline; color: #764ba2;}
   from { opacity: 1; transform: translateY(0); }
   to { opacity: 0; transform: translateY(-10px); }
 }
+<<<<<<< HEAD
 .sort-buttons {margin-bottom: 20px; text-align: center; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;}
 .sort-buttons button {margin: 0; padding: 12px 24px; background: white; color: #28a745; border: 2px solid #28a745; border-radius: 25px; cursor: pointer; transition: all 0.3s; font-weight: 600; font-size: 14px;}
 .sort-buttons button:hover {background: #28a745; color: white; transform: translateY(-2px); box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);}
@@ -69,6 +97,19 @@ summary:hover {text-decoration: underline; color: #764ba2;}
 .comparison-table input {margin-right: 10px; cursor: pointer;}
 .cta-button {background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important; color: white !important; padding: 12px 28px !important; font-size: 0.95em; border-radius: 25px; transition: all 0.3s ease; text-decoration: none !important; display: inline-block; font-weight: 600; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(245, 87, 108, 0.3);}
 .cta-button:hover {background: linear-gradient(135deg, #e085ea 0%, #e54560 100%) !important; transform: translateY(-3px); box-shadow: 0 8px 20px rgba(245, 87, 108, 0.4) !important; text-decoration: none !important;}
+=======
+.sort-buttons {margin-bottom: 10px; text-align: center;}
+.sort-buttons button {margin: 0 5px; padding: 8px 16px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background 0.3s; font-weight: bold;}
+.sort-buttons button:hover {background: #218838;}
+.comparison-section {margin: 30px 0; padding: 20px; background: #f0f8ff; border-left: 4px solid #007bff; border-radius: 8px;}
+.comparison-table {width: 100%; margin-top: 15px;}
+.comparison-table tr {background: white;}
+.comparison-table th {background: #007bff; color: white; padding: 10px;}
+.comparison-table td {padding: 10px; border: 1px solid #ddd;}
+.comparison-table input {margin-right: 10px; cursor: pointer;}
+.cta-button {background: linear-gradient(45deg, #ff6b35, #ff8c42) !important; color: white !important; padding: 12px 20px !important; font-size: 1.1em; border-radius: 5px; transition: all 0.3s ease; text-decoration: none !important; display: inline-block; font-weight: bold; border: 2px solid #ff6b35; cursor: pointer; animation: pulse 1.5s infinite;}
+.cta-button:hover {background: linear-gradient(45deg, #e55a2b, #e57a3a) !important; transform: scale(1.05); box-shadow: 0 6px 12px rgba(0,0,0,0.15) !important; text-decoration: none !important; border-color: #e55a2b;}
+>>>>>>> dd498f5 (Add style.css and update index.html)
 
 @keyframes pulse {
   0% { transform: scale(1); }
@@ -80,19 +121,33 @@ summary:hover {text-decoration: underline; color: #764ba2;}
 .trust-badge .text {font-size: 0.9em; color: #6c757d;}
 .trust-badge .text strong {color: #495057;}
 .key-features {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0;}
+<<<<<<< HEAD
 .feature-card {background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-left: 4px solid #667eea; transition: all 0.3s;}
 .feature-card:hover {transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.12);}
 .feature-card h4 {color: #667eea; margin-top: 0; font-weight: 600;}
+=======
+.feature-card {background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);}
+.feature-card h4 {color: #007bff; margin-top: 0;}
+>>>>>>> dd498f5 (Add style.css and update index.html)
 .top-picks {background: #fff3cd; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #ff9800;}
 .top-picks ul {list-style: none; padding: 0;}
 .top-picks li {padding: 8px 0; font-size: 1.05em; font-weight: bold; color: #333;}
 .dark-mode {background: #1a1a1a; color: #fff;}
+<<<<<<< HEAD
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4 {color: #8eb4f5;}
 .dark-mode th {background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);}
 .dark-mode tr:nth-child(even) {background: #2a2a2a;}
 .dark-mode tr:hover {background: #333;}
 .dark-mode .feature-card {background: #2a2a2a; border-left-color: #667eea;}
 .dark-mode .comparison-section {background: #1a1a1a; border-left-color: #667eea; color: #fff;}
+=======
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4 {color: #4db8ff;}
+.dark-mode th {background: #0056b3;}
+.dark-mode tr:nth-child(even) {background: #2a2a2a;}
+.dark-mode tr:hover {background: #333;}
+.dark-mode .feature-card {background: #2a2a2a; border: 1px solid #444;}
+.dark-mode .comparison-section {background: #1e3a5f; color: #fff;}
+>>>>>>> dd498f5 (Add style.css and update index.html)
 .dark-mode table {color: #fff;}
 /* Mobile table overflow */
 @media (max-width: 768px) {
@@ -109,6 +164,7 @@ html {scroll-behavior: smooth;}
 .safe-badge {background: #d4edda; color: #155724; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; margin-left: 5px;}
 /* Hover effects on cards */
 .feature-card:hover {transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
+<<<<<<< HEAD
 .dark-mode a {color: #8eb4f5;}
 .dark-mode footer {background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); color: #fff;}
 .dark-mode .top-picks {background: #2a2a2a; border-left-color: #f5576c;}
@@ -119,13 +175,30 @@ html {scroll-behavior: smooth;}
 .urgency-badge {display: inline-block; color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.75em; margin-left: 8px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;}
 .trending-badge {background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);}
 .hot-deal-badge {background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);}
+=======
+.dark-mode a {color: #4db8ff;}
+.dark-mode footer {background: #2a2a2a; color: #fff;}
+.dark-mode .top-picks {background: #2a2a2a; border-left-color: #ff9800;}
+.dark-mode-toggle {position: fixed; top: 20px; right: 20px; z-index: 1000; background: #007bff; padding: 10px 20px; border: none; border-radius: 5px; color: white; cursor: pointer; transition: all 0.3s; box-shadow: 0 4px 8px rgba(0,0,0,0.2); font-weight: bold;}
+.dark-mode-toggle:hover {background: #0056b3; transform: scale(1.05);}
+.filter-buttons {position: sticky; top: 0; z-index: 100; background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);}
+.dark-mode .filter-buttons {background: #2a2a2a; color: #fff;}
+.urgency-badge {display: inline-block; background: #dc3545; color: white; padding: 4px 10px; border-radius: 4px; font-size: 0.8em; margin-left: 8px; font-weight: bold;}
+.trending-badge {background: #28a745;}
+.hot-deal-badge {background: #ff6b35;}
+>>>>>>> dd498f5 (Add style.css and update index.html)
 .rating-note {font-size: 0.85em; color: #666; margin-top: 10px; padding: 10px; background: #f5f5f5; border-radius: 4px; border-left: 3px solid #ff9800;}
 .price-note {font-size: 0.85em; color: #666; margin: 10px 0; padding: 8px; background: #f5f5f5; border-radius: 4px;}
 .verdict-box {background: #f0fff0; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #28a745;}
 .verdict-box h3 {color: #28a745;}
 .social-proof {font-size: 0.8em; color: #666; margin-top: 8px; padding: 6px; background: #fff9e6; border-radius: 4px; text-align: center; font-weight: bold;}
+<<<<<<< HEAD
 .internal-links {background: linear-gradient(135deg, #f0f4ff 0%, #f0f8ff 100%); padding: 20px; border-radius: 12px; margin: 30px 0; border-left: 4px solid #667eea; box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);}
 .internal-links a {color: #667eea; margin-right: 20px; display: inline-block; font-weight: 600;}
+=======
+.internal-links {background: #e3f2fd; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #2196F3;}
+.internal-links a {color: #1976D2; margin-right: 20px; display: inline-block;}
+>>>>>>> dd498f5 (Add style.css and update index.html)
 .modal {
   display: none;
   position: fixed;
@@ -144,12 +217,21 @@ html {scroll-behavior: smooth;}
 .modal-content {
   background-color: white;
   margin: 10% auto;
+<<<<<<< HEAD
   padding: 30px;
   border: none;
   border-radius: 16px;
   width: 90%;
   max-width: 500px;
   box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+=======
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+>>>>>>> dd498f5 (Add style.css and update index.html)
 }
 .close-modal {
   color: #aaa;
@@ -194,6 +276,7 @@ html {scroll-behavior: smooth;}
 .buying-guide {background: #e8f5e8; padding: 20px; border-radius: 8px; margin: 20px 0;}
 .detailed-review {background: #f0f8ff; padding: 15px; border-radius: 8px; margin: 10px 0;}
 .visitor-count {font-size: 0.9em; color: #666; text-align: center; margin: 10px 0;}
+<<<<<<< HEAD
 .updated-date {font-size: 0.9em; color: #666; text-align: center; margin: 10px 0;}
 /* Enhanced spacing and layout */
 body > p, body > h2, body > ul {margin: 30px auto; max-width: 1200px; padding: 0 20px;}
@@ -220,3 +303,6 @@ body > h2 {font-size: 2em; background: linear-gradient(135deg, #667eea 0%, #764b
   header h1 {font-size: 1.8em;}
   th, td {padding: 8px; font-size: 0.9em;}
 }
+=======
+.updated-date {font-size: 0.9em; color: #666; text-align: center; margin: 10px 0;}
+>>>>>>> dd498f5 (Add style.css and update index.html)
